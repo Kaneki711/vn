@@ -14,83 +14,78 @@ print u"login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 
-helpMessage ="""Ŧяәәƅoŧ v2.7
- ~~~~~~~ Command ~~~~~~~
-¤  Tagall     - Tagall Member Group
-¤  Lurking    - Set Point Read
-¤  Result     - Reading Point
-¤  Ginfo      - Info Grup
+helpMessage ="""
+==============================
+COMMAND FOR SELFBOT
+==============================
 
- ~~~~~~ Command Admin ~~~~~~
-¤  Glist      - List Group BOT
-¤  Cancel     - Cancel All Pending Grup
-¤  Mid @      - Get MID 
-¤  Invite     - Invite Via Send Contact
-¤  Invite:    - Via MID
-¤  Whitelist @ - Via Tag
-¤  Whitelist:  - Via Mid
-¤  Whitelist   - Via Send Contact
-¤  Blacklist @ - Via Tag
-¤  Blacklist:  - Via Mid
-¤  Blacklist   - Via Send Contact
-¤  Clear ban   - Delete All Blacklist
-¤  Link on     - Open QR
-¤  Link off    - Close QR
-¤  Gurl        - Open QR And Get Link
-¤  Url         - Get QR Link
-¤  Gname       - Change Name Group
-¤  Banlist     - Cek Tersangka Kriminal
-¤  Details grup - Via Gid
-¤  Inviteme:    - Via Gid
-¤  Info grup
-¤  Clear grup
+♛  Tagall     - Tagall Member Group
+♛  Lurking    - Set Point Read
+♛  Result     - Reading Point
+♛  Ginfo      - Info Grup
+♛  Glist      - List Group BOT
+♛  Cancel     - Cancel All Pending Grup
+♛  Mid @      - Get MID 
+♛  Invite     - Invite Via Send Contact
+♛  Invite:    - Via MID
+♛  Whitelist @ - Via Tag
+♛  Whitelist:  - Via Mid
+♛  Whitelist   - Via Send Contact
+♛  Blacklist @ - Via Tag
+♛  Blacklist:  - Via Mid
+♛  Blacklist   - Via Send Contact
+♛  Clear ban   - Delete All Blacklist
+♛  Link on     - Open QR
+♛  Link off    - Close QR
+♛  Gurl        - Open QR And Get Link
+♛  Url         - Get QR Link
+♛  Gname       - Change Name Group
+♛  Banlist     - Cek Tersangka Kriminal
+♛  Details grup - Via Gid
+♛  Inviteme:    - Via Gid
+♛  Info grup
+♛  Clear grup 
+♛  Nuke
+♛  Ratakan
+♛  Kick @       - Via Tag
+♛  Kick:        - Via MID
+♛  Bc: 
+♛  Bc:
+♛  Block @
+♛  Blocklist
+♛  Spam on/off
+♛  Bot:     
+♛  Bot:    
+♛  Allname:    - Change All Name BOT
+♛  Allbio:     - Change All Bio BOT
+♛  Speed       - Tes Speed
+♛  Mycopy @    - Copy Profile 
+♛  Mybackup @  - Backup Profile
+♛  Like:on/off     
+♛  Add on/off 	 
+♛  Auto join on/off 	   
+♛  Contact on/off	
+♛  Leave on/off 
+♛  Share on/off           
+♛  Add on/off 		   
+♛  Jam on/off			   
+♛  Jam say:			   
+♛  Com on/off	
+♛  Message set:	
+♛  Comment set:	
+♛  Message add:	    
+♛  Protect on			   
+♛  Qrprotect on/off			   
+♛  Inviteprotect on/off			   
+♛  Cancelprotect on/off		   
+♛  Staff add/remove @	   
+ 
+KANEKI TEAM SELFBOT
 
- ~~~~~ Command for kicker ~~~~~ 
-¤  Nuke
-¤  Ratakan
-¤  Kick @       - Via Tag
-¤  Kick:        - Via MID
-
- ~~~~~~ Command Player ~~~~~~
-¤  Bc:ct 
-¤  Bc:grup
-¤  Block @
-¤  Blocklist
-¤  Spam on/off
-¤  Uni
-¤  Bot:ct      -  Contact BOT
-¤  Bot:grup    - Grup Joined BOT
-¤  Allname:    - Change All Name BOT
-¤  Allbio:     - Change All Bio BOT
-¤  Bot sp      - Tes Speed BOT
-¤  Speed       - Tes Speed
-¤  Mycopy @    - Copy Profile 
-¤  Mybackup @  - Backup Profile
-
- ~~~~~~ Command Setting ~~~~~~    
-¤  [Like:on/off]     
-¤  [Add on/off] 	 
-¤  [Auto join on/off] 	   
-¤  [Contact on/off] 	
-¤  [Leave on/off]  
-¤  [Share on/off]           
-¤  [Add on/off] 		   
-¤  [Jam on/off]			   
-¤  [Jam say:]			   
-¤  [Com on/off]	
-¤  [Message set:]	
-¤  [Comment set:]	
-¤  [Message add:]	
-
- ~~~~ Auto Setting Command ~~~~~    
-¤  [Panick:on/off]      
-¤  [Protect on]			   
-¤  [Qrprotect on/off]			   
-¤  [Inviteprotect on/off]			   
-¤  [Cancelprotect on/off]		   
-¤  [Staff add/remove @]	   
- ~~~~~~~~ For Admin ~~~~~~~~
-  
+   OWNER TEAM
+              ◤     ◥
+                BII        
+              ◣     ◢
 """
 KAC=[cl,ki,ki2,ki3,ki4,ki5]
 mid = cl.getProfile().mid
@@ -99,9 +94,9 @@ ki2mid = ki2.getProfile().mid
 ki3mid = ki3.getProfile().mid
 ki4mid = ki4.getProfile().mid
 ki5mid = ki5.getProfile().mid
-Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"u9489706a45fcf78bea076c6b77f7067d"]
-admsa = "u9489706a45fcf78bea076c6b77f7067d"
-admin = "u9489706a45fcf78bea076c6b77f7067d"
+Bots = [mid,kimid,ki2mid,ki3mid,ki4mid,ki5mid,"uc77fd25b59f6e563d84f1334f3fed10b"]
+admsa = "uc77fd25b59f6e563d84f1334f3fed10b"
+admin = "uc77fd25b59f6e563d84f1334f3fed10b"
 
 wait = {
     'contact':False,
@@ -112,7 +107,7 @@ wait = {
     'autoAdd':True,
     'message':" ",
     "lang":"JP",
-    "comment":"Auto Like",
+    "comment":"Auto Like By line.me/ti/p/@enr7503k",
     "commentOn":False,
     "likeOn":False,
     "commentBlack":{},
@@ -203,7 +198,7 @@ def bot(op):
             msg = op.message
             if msg.toType == 0:
                 msg.to = msg.from_
-                if msg.from_ == "ucd886b532f581aa4de98af5898719392":
+                if msg.from_ == "uc77fd25b59f6e563d84f1334f3fed10b":
                     if "join:" in msg.text:
                         list_ = msg.text.split(":")
                         try:
